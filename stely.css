@@ -1,0 +1,136 @@
+@keyframes rainbow-background {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 400% 400%;
+  animation: rainbow-background 10s infinite linear; 
+  color: #fff; 
+  justify-content: center;
+  gap: 20px;
+.nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+}
+
+.container {
+  flex-wrap: wrap;
+  display: flex; 
+  margin: 0;
+  gap: 20px;
+  padding: 20px;
+}
+
+.tech-item {
+  width: 300px; 
+  list-style: none;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.tech-item:hover {
+  transform: scale(1.05);
+}
+
+.tech-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.tech-img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.tech-title {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.tech-text {
+  font-size: 1em;
+  color: #666;
+  padding: 0 10px 10px;
+}
+
+.lgbt {
+  font-size: 1.5em;
+  margin: 10px 0;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+
+  color: transparent;
+  text-transform: uppercase; 
+  font-weight: bold;
+}
+@keyframes rainbow {
+  0% { background-position: 0%; }
+  100% { background-position: 100%; }
+}
+
+@keyframes rainbow {
+  0% { background-position: 0%; }
+  100% { background-position: 100%; }
+}
+
+.tech-title {
+  font-size: 1.5em;
+  margin: 10px 0;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 400% 100%;
+  animation: rainbow 5s infinite linear; 
+  color: black; 
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+.tech-item:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+.tech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.shpylya_love {
+  display: flex;
+  justify-content:center ;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.shpylya_love_h1 {
+  display: flex;
+  justify-content: center;
+
+}
+.loved {
+  text-align: center;
+  justify-content: center;
+}
+.item_love{
+  padding-top: 20px;
+ display: flex;
+  justify-content: center;
+}
+.item-loved {
+  margin-right: 100px;
+}
+.item-loveds {
+  margin-left: 100px;
+}
